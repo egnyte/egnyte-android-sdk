@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="?attr/egnytePickerBackground"
+    android:orientation="vertical">
+
+    <com.egnyte.androidsdk.picker.NavigateBackView
+        android:id="@+id/picker_back_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="left|center_vertical"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/picker_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

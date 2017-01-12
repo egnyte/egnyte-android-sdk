@@ -1,1 +1,1 @@
-include ':app'
+include ':egnyte-android-sdk', ':sample-app', ':egnyte-android-picker'

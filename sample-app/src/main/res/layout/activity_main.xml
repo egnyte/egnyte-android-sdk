@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.egnyte.androidsdk.picker.EgnyteFolderPickerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/egnyte_folder_picker_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.egnyte.androidsdk.sample.MainActivity" />

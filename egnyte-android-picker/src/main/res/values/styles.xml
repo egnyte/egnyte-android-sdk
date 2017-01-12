@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EgnytePickerStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="egnytePickerBackground">@android:color/white</item>
+        <item name="colorPrimary">#139591</item>
+        <item name="colorPrimaryDark">#3e6f70</item>
+        <item name="colorAccent">#139591</item>
+        <!--<item name="colorControlActivated">#139591</item>-->
+        <item name="colorControlHighlight">#139591</item>
+    </style>
+
+</resources>
